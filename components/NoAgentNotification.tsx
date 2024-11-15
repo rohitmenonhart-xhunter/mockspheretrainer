@@ -70,8 +70,7 @@ export function NoAgentNotification(props: NoAgentNotificationProps) {
             It&apos;s quiet... too quiet. try reaching core team .
           </p>
           
-            View guide
-          </a>
+            
           <button onClick={() => setShowNotification(false)}>
             {/* Close Icon */}
             <svg
