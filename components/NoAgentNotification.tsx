@@ -69,11 +69,7 @@ export function NoAgentNotification(props: NoAgentNotificationProps) {
           <p className="text-pretty w-max">
             It&apos;s quiet... too quiet. try reaching core team .
           </p>
-          <a
-            href="https://docs.livekit.io/agents/quickstarts/s2s/"
-            target="_blank"
-            className="underline whitespace-nowrap"
-          >
+          
             View guide
           </a>
           <button onClick={() => setShowNotification(false)}>
